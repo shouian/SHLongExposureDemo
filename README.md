@@ -12,7 +12,21 @@ SHCamera is just a singleton existing in your application lifecycle.
 
 ## How To Initialize? (Basic Requirement)
 
-It is just easy to use 
+It is just easy to use
+
+Before start up to use, you have to import the following framework in your app project
+
+``` objective-c
+#import <AVFoundation/AVFoundation.h>
+#import <CoreImage/CoreImage.h>
+#import <Accelerate/Accelerate.h>
+#import <MediaPlayer/MediaPlayer.h> 
+```
+And in your view controller or view you want to use this object, just import it with
+``` objective-c
+#import "SHCamera.h"
+```
+Now we are going to start 
 ``` objective-c
 // Set up preview in view and of course, you can set up its property to control its behavior
 // This code can be put in anywhere
