@@ -9,6 +9,9 @@
 #import "SHCamera.h"
 #import <AVFoundation/AVFoundation.h>
 #import <CoreImage/CoreImage.h>
+#import <CoreVideo/CoreVideo.h>
+#import <CoreMedia/CoreMedia.h>
+#import <QuartzCore/QuartzCore.h>
 #import <Accelerate/Accelerate.h>
 #import <MediaPlayer/MediaPlayer.h>
 

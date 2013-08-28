@@ -19,8 +19,11 @@ Before start up to use, you have to import the following framework in your app p
 ``` objective-c
 #import <AVFoundation/AVFoundation.h>
 #import <CoreImage/CoreImage.h>
+#import <CoreVideo/CoreVideo.h>
+#import <CoreMedia/CoreMedia.h>
+#import <QuartzCore/QuartzCore.h>
 #import <Accelerate/Accelerate.h>
-#import <MediaPlayer/MediaPlayer.h> 
+#import <MediaPlayer/MediaPlayer.h>
 ```
 And in your view controller or view you want to use this object, just import it with
 ``` objective-c
